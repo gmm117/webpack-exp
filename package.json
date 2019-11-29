@@ -1,0 +1,26 @@
+{
+  "name": "webpack-exp",
+  "version": "1.0.0",
+  "description": "- 웹어플리케이션 모듈들을 이용해서 번들링 하는 도구",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmm117/webpack-exp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmm117/webpack-exp/issues"
+  },
+  "homepage": "https://github.com/gmm117/webpack-exp#readme",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  }
+}
