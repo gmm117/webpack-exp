@@ -19,3 +19,11 @@
 
 # webpack merge
  - 웹팩 파일을 merge 할수 있는 기능을 제공(npm install --save-dev webpack-merge)
+
+# clean-webpack-plugin
+ - bundling시 기존에 남아있는 파일을 삭제 후 새로 생성된 파일만 남도록 해주는 plugin이다.
+
+# Chunk
+ - bundling하는 파일 중에서 변하지 않는 것들을 모듈로 분류하는 것들을 Chunk 기능을 수행하는 기준이 된다.
+ - runtime Chunk : 초기에 로딩중에 변하지 않는 코드를 모아놓은 Chunk
+ - vender Chunk : 외부모듈,jquery 거의 변하지 않는 모듈들을 지칭
